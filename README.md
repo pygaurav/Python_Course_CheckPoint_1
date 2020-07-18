@@ -2,7 +2,7 @@
 
 ## ASSIGNMENT CHECKPOINT-1 (ITTWIST)
 **Mimic a simple blog commandline program:**
-Suppose you are planning to create your own blog application where you can read a posts, create a post, update a post or delete a post.
+Suppose you are planning to create your own blog application where you can read a post, create a post, update a post or delete a post.
 
  - Create a list (posts) that will contain all post (dictionaries).
 
@@ -24,7 +24,7 @@ Suppose you are planning to create your own blog application where you can read 
 
  - **delete_post** which will accept post_id as a argument, and delete that dictionary of the respective post_id.
 
- - Call the following functions
+ - The following function calls are already written for you, please call them respectively and verify the expected output.
 
 	 - create_post
 	 - create_post
