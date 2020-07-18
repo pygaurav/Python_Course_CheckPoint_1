@@ -1,7 +1,7 @@
 > Hands on Python Course
 
 ## ASSIGNMENT CHECKPOINT-1 (ITTWIST)
-**Mimic a simple blog commandline program:**
+**A simple blog commandline program:**
 Suppose you are planning to create your own blog application where you can read a post, create a post, update a post or delete a post.
 
  - Create a list (posts) that will contain all post (dictionaries).
