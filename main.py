@@ -41,21 +41,36 @@ def update_post():
 
 #Read all post, Please add the print statement for updating the posts
 def read_post():
+    #print statement
     pass
 
 #Delete a specific post, Please change the parameter list accordingly
 def delete_post():
     pass
 
-#This will call the create post function, Please change the argument list accordingly
+#This will call the create post function
 create_post()
 create_post()
 create_post()
-#This will call the read post function, Please change the argument list accordingly
+#This will call the read post function
 read_post()
-#This will call the update post function, Please change the argument list accordingly
+'''Expected Output : 
+[{'post_id': 1, 'post_name': 'Python Course Part-1', 'post_author': 'John'}, 
+{'post_id': 2, 'post_name': 'Python Course Part-2', 'post_author': 'Bill'}, 
+{'post_id': 3, 'post_name': 'Python Course Part-3', 'post_author': 'Jack'}]
+'''
+#This will call the update post function
 update_post()
 read_post()
-#This will call the delete post function, Please change the argument list accordingly
+''' Expected Output:
+[{'post_id': 1, 'post_name': 'Python Course Part-0', 'post_author': 'Max'}, 
+{'post_id': 2, 'post_name': 'Python Course Part-2', 'post_author': 'Bill'}, 
+{'post_id': 3, 'post_name': 'Python Course Part-3', 'post_author': 'Jack'}]
+'''
+#This will call the delete post function
 delete_post()
 read_post()
+''' Expected Output:
+[{'post_id': 1, 'post_name': 'Python Course Part-0', 'post_author': 'Max'}, 
+{'post_id': 2, 'post_name': 'Python Course Part-2', 'post_author': 'Bill'}]
+'''
