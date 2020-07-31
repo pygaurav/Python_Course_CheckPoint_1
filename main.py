@@ -72,7 +72,7 @@ read_post()
 ]
 '''
 #This will call the delete post function
-delete_post()
+delete_post(3)
 read_post()
 ''' Expected Output:
 [
